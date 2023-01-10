@@ -21,8 +21,14 @@ body {
   top:0;
   /* border: solid 1px #0d0e11; */
   box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.Header img {
+  width: 20px;
+}
 .Header h1 {
   font-size: 3.5rem;
 }
