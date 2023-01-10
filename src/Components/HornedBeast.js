@@ -19,7 +19,7 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <Card style={{ width: '18rem' }} className="h-200 mx-auto Card" >
+      <Card style={{ width: '20rem' }} className="h-200 mx-auto Card" >
         <Card.Body  >
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title} />

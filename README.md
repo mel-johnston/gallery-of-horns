@@ -39,3 +39,4 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Heart Emoji: https://www.i2symbol.com/symbols/heart
+Unicorn Emoji: https://emojis.wiki/unicorn/
