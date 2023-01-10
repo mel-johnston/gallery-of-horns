@@ -2,38 +2,39 @@
 
 ## Feature #1: Display Images
 >
->Estimate of time needed to complete: __.
+>Estimate of time needed to complete: 2 hours.
 >
->Start time:
+>Start time: 1300 CST
 >
->Finish time:.
+>Finish time: 1400 CST
 >
->Actual time needed to complete:
+>Actual time needed to complete: 1 hour
 
 ## Feature #2: Favorite Beasts
 >
->Estimate of time needed to complete: __.
+>Estimate of time needed to complete: 2 hour.
 >
->Start time:
+>Start time: 1300 CST
 >
->Finish time:
+>Finish time: 1400 CST
 >
->Actual time needed to complete
+>Actual time needed to complete: 1 hour.
 
 ## Feature #3: Bootstrap
 
->Estimate of time needed to complete: __.
+>Estimate of time needed to complete: 2 hour.
 >
->Start time:
+>Start time: 1300 CST
 >
->Finish time:
+>Finish time: 1400 CST
 >
->Actual time needed to complete:
+>Actual time needed to complete: 1 hour.
 
 <br>
 
 ---
-### Attributions:
+
+### Attributions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
