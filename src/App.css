@@ -2,8 +2,9 @@
   --clr-grey: #282c34;
 }
 
+
 body {
-  background-color: #282c3469;
+  background-color: #282c34;
 }
 
 .Header {
@@ -13,25 +14,20 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 1rem 0;
 }
 
 .Main {
   margin: 2rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
 }
 
-.Card {
-  width: 30%;
-  padding: 1% 2%;
-  border: solid 2px var(--clr-grey);
+.heart:hover {
+  cursor: pointer;
 }
-
-.Card img {
-  width: 100%;
-}
-
 
 .Footer {
   text-align: center;
