@@ -35,6 +35,10 @@ body {
   gap: 2rem .5rem;
 }
 
+.Card {
+  box-shadow: 5px 5px 15px rgba(131, 131, 131, 0.637);
+}
+
 .heart:hover {
   cursor: pointer;
 }
