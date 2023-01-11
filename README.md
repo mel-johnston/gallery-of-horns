@@ -12,7 +12,7 @@
 
 ## Feature #2: Favorite Beasts
 >
->Estimate of time needed to complete: 2 hour.
+>Estimate of time needed to complete: 2 hours.
 >
 >Start time: 1300 CST
 >
@@ -22,13 +22,23 @@
 
 ## Feature #3: Bootstrap
 
->Estimate of time needed to complete: 2 hour.
+>Estimate of time needed to complete: 2 hours.
 >
 >Start time: 1300 CST
 >
 >Finish time: 1400 CST
 >
 >Actual time needed to complete: 1 hour.
+
+## Feature #3: Modal
+
+>Estimate of time needed to complete: 3 hours.
+>
+>Start time: 1300 CST
+>
+>Finish time: 1600 CST
+>
+>Actual time needed to complete: 3 hours.
 
 <br>
 
