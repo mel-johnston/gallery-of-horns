@@ -16,12 +16,15 @@ class HornedBeast extends React.Component {
     })
   }
 
+  handleTitleClick = () => {
+    this.props.handleOpenModal(this.props.title, this.props.image, this.props.description)
+  }
 
   render() {
     return (
       <Card style={{ width: '20rem' }} className="h-200 mx-auto Card" >
         <Card.Body  >
-          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Title onClick={this.handleTitleClick}>{this.props.title}</Card.Title>
           <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title} />
 
         </Card.Body>
