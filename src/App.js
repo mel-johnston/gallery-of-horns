@@ -4,8 +4,8 @@ import Header from './Components/Header';
 import HornForm from "./Components/HornForm";
 import Main from './Components/Main';
 import Footer from './Components/Footer';
-import "./App.css"
 import SelectedBeast from "./Components/SelectedBeast";
+import "./App.css"
 
 class App extends React.Component {
   constructor(props) {
@@ -13,6 +13,8 @@ class App extends React.Component {
     this.state = {
       showModal: false,
       selectedBeast: '',
+      data: Data,
+      newData: Data,
     }
   }
 
@@ -24,8 +26,7 @@ class App extends React.Component {
         image: image,
         description: description
       }
-    }
-    )
+    })
   }
 
   handleCloseModal = () => {
@@ -34,8 +35,16 @@ class App extends React.Component {
     });
   }
 
-  handleHornFilter = (event) => {
-
+  handleFilter = (event) => {
+    if (event.target.value === 'all') {
+      this.setState({
+        newData: this.state.data
+      })
+    } else {
+      this.setState({
+        newData: this.state.data.filter(obj => obj.horns === +event.target.value)
+      })
+    }
   }
 
   render() {
@@ -43,11 +52,12 @@ class App extends React.Component {
       <div>
         <Header />
         <HornForm
-
+          data={Data}
+          handleFilter={this.handleFilter}
         />
         <Main
           handleOpenModal={this.handleOpenModal}
-          data={Data}
+          data={this.state.newData}
         />
         <SelectedBeast
           showModal={this.state.showModal}
