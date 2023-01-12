@@ -16,7 +16,7 @@ class HornedBeast extends React.Component {
     })
   }
 
-  handleTitleClick = () => {
+  handleImageClick = () => {
     this.props.handleOpenModal(this.props.title, this.props.image, this.props.description)
   }
 
@@ -24,8 +24,8 @@ class HornedBeast extends React.Component {
     return (
       <Card style={{ width: '20rem' }} className="h-200 mx-auto Card" >
         <Card.Body  >
-          <Card.Title onClick={this.handleTitleClick}>{this.props.title}</Card.Title>
-          <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title} />
+          <Card.Title >{this.props.title}</Card.Title>
+          <Card.Img className="card-image"onClick={this.handleImageClick}src={this.props.image} alt={this.props.description} title={this.props.title} />
 
         </Card.Body>
         <ListGroup className="list-group-flush">

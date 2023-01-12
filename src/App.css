@@ -54,3 +54,24 @@ body {
   text-align: center;
   color: white;
 }
+
+.card-image:hover {
+  cursor: pointer;
+  border: solid 2px #282c34;
+}
+
+
+.modal-header {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.modal-card img {
+  /* border: solid 1px grey; */
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.modal-footer {
+  justify-content: center;
+}
