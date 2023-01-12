@@ -30,7 +30,7 @@
 >
 >Actual time needed to complete: 1 hour.
 
-## Feature #3: Modal
+## Feature #4: Modal
 
 >Estimate of time needed to complete: 3 hours.
 >
@@ -39,6 +39,16 @@
 >Finish time: 1600 CST
 >
 >Actual time needed to complete: 3 hours.
+
+## Feature #5: Filter by Number of Horns
+
+>Estimate of time needed to complete: 3 hours.
+>
+>Start time: 
+>
+>Finish time: 
+>
+>Actual time needed to complete: .
 
 <br>
 
