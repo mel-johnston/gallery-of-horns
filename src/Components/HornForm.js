@@ -1,21 +1,7 @@
 import React from "react";
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Form from 'react-bootstrap/Form';
+import {FloatingLabel, Form } from 'react-bootstrap';
 
 class HornForm extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      title: ''
-    }
-  }
-
-  handleSubmit = (event) => {
-    this.setState({
-      title: ''
-    })
-  }
-
   render() {
     return (
       <div>
@@ -25,7 +11,7 @@ class HornForm extends React.Component {
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
-            <option value="🦄">Many Horns</option>
+            <option value="100">Many Horns</option>
           </Form.Select>
         </FloatingLabel>
       </div>

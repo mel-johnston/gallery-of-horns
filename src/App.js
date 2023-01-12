@@ -34,18 +34,23 @@ class App extends React.Component {
     });
   }
 
+  handleHornFilter = (event) => {
+
+  }
 
   render() {
     return (
       <div>
         <Header />
-        <HornForm />
+        <HornForm
+
+        />
         <Main
           handleOpenModal={this.handleOpenModal}
           data={Data}
         />
         <SelectedBeast
-          showModal = {this.state.showModal}
+          showModal={this.state.showModal}
           handleCloseModal={this.handleCloseModal}
           selectedBeast={this.state.selectedBeast}
         />
