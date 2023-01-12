@@ -44,11 +44,11 @@
 
 >Estimate of time needed to complete: 3 hours.
 >
->Start time: 
+>Start time: 1300 CST
 >
->Finish time: 
+>Finish time: 1500 CST
 >
->Actual time needed to complete: .
+>Actual time needed to complete: 2 hours.
 
 <br>
 
