@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "./data";
 import Header from './Components/Header';
+import HornForm from "./Components/HornForm";
 import Main from './Components/Main';
 import Footer from './Components/Footer';
 import "./App.css"
@@ -38,6 +39,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
+        <HornForm />
         <Main
           handleOpenModal={this.handleOpenModal}
           data={Data}
