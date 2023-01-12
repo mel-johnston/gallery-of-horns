@@ -75,3 +75,7 @@ body {
 .modal-footer {
   justify-content: center;
 }
+
+.horn-form {
+  margin: 2rem 4.5rem;
+}

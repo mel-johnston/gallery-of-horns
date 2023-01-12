@@ -1,6 +1,5 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import { Card, ListGroup } from 'react-bootstrap';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -25,7 +24,7 @@ class HornedBeast extends React.Component {
       <Card style={{ width: '20rem' }} className="h-200 mx-auto Card" >
         <Card.Body  >
           <Card.Title >{this.props.title}</Card.Title>
-          <Card.Img className="card-image"onClick={this.handleImageClick}src={this.props.image} alt={this.props.description} title={this.props.title} />
+          <Card.Img className="card-image" onClick={this.handleImageClick} src={this.props.image} alt={this.props.description} title={this.props.title} />
 
         </Card.Body>
         <ListGroup className="list-group-flush">
@@ -37,6 +36,5 @@ class HornedBeast extends React.Component {
     )
   }
 }
-
 
 export default HornedBeast;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal';
+import { Modal } from 'react-bootstrap';
 
 class SelectedBeast extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class SelectedBeast extends React.Component {
         show={this.props.showModal}
         onHide={this.props.handleCloseModal}>
         <Modal.Header className="modal-header" closeButton>{this.props.selectedBeast.title}</Modal.Header>
-        <img src= {this.props.selectedBeast.image} alt={this.props.selectedBeast.description} title={this.props.selectedBeast.title} />
+        <img src={this.props.selectedBeast.image} alt={this.props.selectedBeast.description} title={this.props.selectedBeast.title} />
         <Modal.Footer className="modal-footer"> {this.props.selectedBeast.description} </Modal.Footer>
       </Modal>
     )
